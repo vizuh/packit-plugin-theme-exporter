@@ -1,0 +1,110 @@
+# Copyright (C) 2025 Hugo C, MEAOWS Developer
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: PackIt Plugin & Theme Exporter 1.0.0\n"
+"Report-Msgid-Bugs-To: https://vizuh.com/\n"
+"POT-Creation-Date: 2025-11-26 19:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: packit.php:39
+msgid "Configurações"
+msgstr "Settings"
+
+#: packit.php:52
+msgid "Este plugin requer a extensão ZipArchive do PHP. Por favor, habilite-a e tente novamente."
+msgstr "This plugin requires the PHP ZipArchive extension. Please enable it and try again."
+
+#: packit.php:58
+msgid "Este plugin precisa de permissão de escrita no diretório de uploads do WordPress."
+msgstr "This plugin needs write permission in the WordPress uploads directory."
+
+#: includes/class-packit-admin.php:21
+msgid "Exportador de Plugins e Temas"
+msgstr "Plugin and Theme Exporter"
+
+#: includes/class-packit-admin.php:22
+msgid "Exportar Plugins/Temas"
+msgstr "Export Plugins/Themes"
+
+#: includes/class-packit-admin.php:60
+msgid "Você não tem permissão suficiente para acessar esta página."
+msgstr "You do not have sufficient permission to access this page."
+
+#: includes/class-packit-admin.php:76
+msgid "Caminho do plugin inválido."
+msgstr "Invalid plugin path."
+
+#: includes/class-packit-admin.php:82
+msgid "Falha ao exportar o plugin."
+msgstr "Failed to export plugin."
+
+#: includes/class-packit-admin.php:90
+msgid "Caminho do tema inválido."
+msgstr "Invalid theme path."
+
+#: includes/class-packit-admin.php:96
+msgid "Falha ao exportar o tema."
+msgstr "Failed to export theme."
+
+#: includes/class-packit-admin.php:104
+msgid "Arquivo não encontrado."
+msgstr "File not found."
+
+#: includes/class-packit-admin.php:140
+msgid "Exportador de Plugins e Temas"
+msgstr "Plugin and Theme Exporter"
+
+#: includes/class-packit-admin.php:143
+msgid "Plugins"
+msgstr "Plugins"
+
+#: includes/class-packit-admin.php:144
+msgid "Temas"
+msgstr "Themes"
+
+#: includes/class-packit-admin.php:148
+msgid "Pesquisar..."
+msgstr "Search..."
+
+#: includes/class-packit-admin.php:152
+msgid "Plugins Instalados"
+msgstr "Installed Plugins"
+
+#: includes/class-packit-admin.php:156 includes/class-packit-admin.php:190
+msgid "Nome"
+msgstr "Name"
+
+#: includes/class-packit-admin.php:157 includes/class-packit-admin.php:191
+msgid "Versão"
+msgstr "Version"
+
+#: includes/class-packit-admin.php:158 includes/class-packit-admin.php:192
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-packit-admin.php:159 includes/class-packit-admin.php:193
+msgid "Ações"
+msgstr "Actions"
+
+#: includes/class-packit-admin.php:169 includes/class-packit-admin.php:203
+msgid "Ativo"
+msgstr "Active"
+
+#: includes/class-packit-admin.php:171 includes/class-packit-admin.php:205
+msgid "Inativo"
+msgstr "Inactive"
+
+#: includes/class-packit-admin.php:176 includes/class-packit-admin.php:210
+msgid "Exportar"
+msgstr "Export"
+
+#: includes/class-packit-admin.php:186
+msgid "Temas Instalados"
+msgstr "Installed Themes"

@@ -1,21 +1,16 @@
-=== PackIt Plugin & Theme Exporter ===
-Contributors: hugoc, meaowsdev
-Donate link: https://vizuh.com/
-Tags: export, plugins, themes, backup, zip, download, migration
-Requires at least: 5.0
-Tested up to: 6.8
-Stable tag: 1.0.0
-Requires PHP: 7.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# PackIt Plugin & Theme Exporter
 
-Easily package and export your WordPress plugins and themes with a single click.
+[![WordPress](https://img.shields.io/badge/WordPress-5.0%2B-blue.svg)](https://wordpress.org/)
+[![PHP](https://img.shields.io/badge/PHP-7.0%2B-purple.svg)](https://php.net/)
+[![License](https://img.shields.io/badge/License-GPLv2-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 
-== Description ==
+**Easily package and export your WordPress plugins and themes with a single click.**
 
-**PackIt Plugin & Theme Exporter** is a powerful and intuitive tool that allows you to export installed plugins and themes directly from the WordPress admin panel. Perfect for backups, migrations, and sharing custom development.
+PackIt Plugin & Theme Exporter is a powerful and intuitive tool that allows you to export installed plugins and themes directly from the WordPress admin panel. Perfect for backups, migrations, and sharing custom development.
 
-**Key Features:**
+---
+
+## ✨ Key Features
 
 * ✅ **Intuitive Interface** - Clean and easy-to-use admin panel
 * ✅ **One-Click Export** - Export any plugin or theme instantly
@@ -25,7 +20,9 @@ Easily package and export your WordPress plugins and themes with a single click.
 * ✅ **Safe and Reliable** - Follows WordPress security best practices
 * ✅ **Fully Bilingual** - Available in English and Brazilian Portuguese
 
-**Use Cases:**
+---
+
+## 🎯 Use Cases
 
 * Create backups of specific plugins and themes
 * Migrate plugins between different WordPress sites
@@ -33,11 +30,11 @@ Easily package and export your WordPress plugins and themes with a single click.
 * Archive specific versions for version control
 * Package custom work for delivery
 
-Developed with ❤️ by [Hugo C](https://vizuh.com/) and MEAOWS Developer
+---
 
-== Installation ==
+## 📦 Installation
 
-**Automatic Installation:**
+### Automatic Installation
 
 1. Access the WordPress admin panel
 2. Go to "Plugins" > "Add New"
@@ -46,60 +43,78 @@ Developed with ❤️ by [Hugo C](https://vizuh.com/) and MEAOWS Developer
 5. Activate the plugin
 6. Access "Tools" > "Export Plugins/Themes"
 
-**Manual Installation:**
+### Manual Installation
 
 1. Download the plugin ZIP file
 2. Go to "Plugins" > "Add New" > "Upload Plugin"
 3. Choose the ZIP file and click "Install Now"
 4. Activate the plugin after installation
 
-**Via FTP:**
+### Via FTP
+
 1. Upload the `packit-plugin-theme-exporter` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the "Plugins" menu in WordPress
 
-== Frequently Asked Questions ==
+---
 
-= How do I use PackIt? =
+## 🚀 Usage
+
+1. After activation, go to **Tools > Export Plugins/Themes** in the admin panel
+2. Choose the **Plugins** or **Themes** tab
+3. Find the item you want to export
+4. Click **Export**
+5. The ZIP file will be downloaded automatically
+
+---
+
+## ❓ Frequently Asked Questions
+
+### How do I use PackIt?
 
 After activation, go to "Tools" > "Export Plugins/Themes" in the admin panel. Choose the "Plugins" or "Themes" tab, find the item you want to export, and click "Export". The ZIP file will be downloaded automatically.
 
-= Where are the exported files saved? =
+### Where are the exported files saved?
 
 ZIP files are downloaded directly to your browser's downloads folder when you click the "Export" button. The plugin creates a temporary file on the server that is automatically deleted after download.
 
-= What format is the exported file? =
+### What format is the exported file?
 
 Files are exported as ZIP archives with automatic naming in the format: `item-name_YYYY-MM-DD_HH-MM-SS.zip`
 
-= Can I export multiple plugins at once? =
+### Can I export multiple plugins at once?
 
 Currently, PackIt exports one plugin or theme at a time. To export multiple items, you need to click "Export" for each one individually.
 
-= Does the plugin work with child themes? =
+### Does the plugin work with child themes?
 
 Yes! PackIt exports any installed theme, including child themes and custom themes.
 
-= Is there a size limit for exports? =
+### Is there a size limit for exports?
 
 The limit depends on your PHP server configuration (memory and execution time). Very large plugins and themes may take longer to compress.
 
-= Does the plugin require special PHP extensions? =
+### Does the plugin require special PHP extensions?
 
 Yes, PackIt requires the PHP ZipArchive extension to create ZIP files. Most modern servers already have this extension enabled. The plugin checks this during activation.
 
-= Is it safe to use PackIt? =
+### Is it safe to use PackIt?
 
 Yes! PackIt follows WordPress security best practices, including nonce verification, user permission validation, input sanitization, and output escaping.
 
-== Screenshots ==
+---
 
-1. Main interface showing the plugins list
-2. Themes tab with search functionality
-3. Confirmation before exporting a plugin
+## 🛠️ Requirements
 
-== Changelog ==
+* WordPress 5.0 or higher
+* PHP 7.0 or higher
+* PHP ZipArchive extension
+* Write permissions in WordPress uploads directory
 
-= 1.0.0 =
+---
+
+## 📝 Changelog
+
+### 1.0.0
 * 🎉 Initial release of PackIt Plugin & Theme Exporter
 * ✨ One-click plugin export
 * ✨ One-click theme export
@@ -109,7 +124,43 @@ Yes! PackIt follows WordPress security best practices, including nonce verificat
 * 🔒 Security with nonce verification and permissions
 * 📦 Automatic ZIP files with timestamp
 
-== Upgrade Notice ==
+---
 
-= 1.0.0 =
-Initial version of PackIt Plugin & Theme Exporter. Install now and start exporting your plugins and themes!
+## 👥 Authors
+
+Developed with ❤️ by:
+* **[Hugo C](https://vizuh.com/)** - Lead Developer
+* **MEAOWS Developer** - Co-Developer
+
+---
+
+## 📄 License
+
+This plugin is licensed under the [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html).
+
+---
+
+## 🌐 Languages
+
+* **English** (en_US)
+* **Português Brasileiro** (pt_BR)
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+---
+
+## 💖 Support
+
+If you find this plugin useful, please consider:
+* ⭐ Starring the repository
+* 📝 Writing a review
+* 🐛 Reporting bugs
+* 💡 Suggesting new features
+
+---
+
+**[Visit our website](https://vizuh.com/)** | **[Support](https://vizuh.com/)**
