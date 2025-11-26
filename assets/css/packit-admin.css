@@ -1,0 +1,75 @@
+.packit-admin-page {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.packit-tabs {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.packit-tab {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 5px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    cursor: pointer;
+    border-radius: 3px 3px 0 0;
+}
+
+.packit-tab.active {
+    background: #fff;
+    font-weight: bold;
+}
+
+.packit-tab-content {
+    display: none;
+}
+
+.packit-tab-content.active {
+    display: block;
+}
+
+.packit-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.packit-table th,
+.packit-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.packit-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.packit-status-active {
+    color: #008000;
+    font-weight: bold;
+}
+
+.packit-status-inactive {
+    color: #999;
+}
+
+.packit-export-button {
+    background-color: #0073aa;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.packit-export-button:hover {
+    background-color: #005a87;
+}

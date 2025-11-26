@@ -1,0 +1,75 @@
+.ept-admin-page {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.ept-tabs {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ept-tab {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 5px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    cursor: pointer;
+    border-radius: 3px 3px 0 0;
+}
+
+.ept-tab.active {
+    background: #fff;
+    font-weight: bold;
+}
+
+.ept-tab-content {
+    display: none;
+}
+
+.ept-tab-content.active {
+    display: block;
+}
+
+.ept-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.ept-table th,
+.ept-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.ept-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.ept-status-active {
+    color: #008000;
+    font-weight: bold;
+}
+
+.ept-status-inactive {
+    color: #999;
+}
+
+.ept-export-button {
+    background-color: #0073aa;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.ept-export-button:hover {
+    background-color: #005a87;
+}

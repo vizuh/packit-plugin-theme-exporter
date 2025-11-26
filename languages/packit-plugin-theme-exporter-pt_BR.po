@@ -1,0 +1,113 @@
+# Copyright (C) 2025 Hugo C, MEAOWS Developer
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: PackIt Plugin & Theme Exporter 1.0.0\n"
+"Report-Msgid-Bugs-To: https://vizuh.com/\n"
+"POT-Creation-Date: 2025-11-26 19:30+0000\n"
+"PO-Revision-Date: 2025-11-26 19:30+0000\n"
+"Last-Translator: Hugo C\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: PackIt 1.0.0\n"
+"X-Domain: packit-plugin-theme-exporter\n"
+
+#: packit.php:39
+msgid "Configurações"
+msgstr "Configurações"
+
+#: packit.php:52
+msgid "Este plugin requer a extensão ZipArchive do PHP. Por favor, habilite-a e tente novamente."
+msgstr "Este plugin requer a extensão ZipArchive do PHP. Por favor, habilite-a e tente novamente."
+
+#: packit.php:58
+msgid "Este plugin precisa de permissão de escrita no diretório de uploads do WordPress."
+msgstr "Este plugin precisa de permissão de escrita no diretório de uploads do WordPress."
+
+#: includes/class-packit-admin.php:21
+msgid "Exportador de Plugins e Temas"
+msgstr "Exportador de Plugins e Temas"
+
+#: includes/class-packit-admin.php:22
+msgid "Exportar Plugins/Temas"
+msgstr "Exportar Plugins/Temas"
+
+#: includes/class-packit-admin.php:60
+msgid "Você não tem permissão suficiente para acessar esta página."
+msgstr "Você não tem permissão suficiente para acessar esta página."
+
+#: includes/class-packit-admin.php:76
+msgid "Caminho do plugin inválido."
+msgstr "Caminho do plugin inválido."
+
+#: includes/class-packit-admin.php:82
+msgid "Falha ao exportar o plugin."
+msgstr "Falha ao exportar o plugin."
+
+#: includes/class-packit-admin.php:90
+msgid "Caminho do tema inválido."
+msgstr "Caminho do tema inválido."
+
+#: includes/class-packit-admin.php:96
+msgid "Falha ao exportar o tema."
+msgstr "Falha ao exportar o tema."
+
+#: includes/class-packit-admin.php:104
+msgid "Arquivo não encontrado."
+msgstr "Arquivo não encontrado."
+
+#: includes/class-packit-admin.php:140
+msgid "Exportador de Plugins e Temas"
+msgstr "Exportador de Plugins e Temas"
+
+#: includes/class-packit-admin.php:143
+msgid "Plugins"
+msgstr "Plugins"
+
+#: includes/class-packit-admin.php:144
+msgid "Temas"
+msgstr "Temas"
+
+#: includes/class-packit-admin.php:148
+msgid "Pesquisar..."
+msgstr "Pesquisar..."
+
+#: includes/class-packit-admin.php:152
+msgid "Plugins Instalados"
+msgstr "Plugins Instalados"
+
+#: includes/class-packit-admin.php:156 includes/class-packit-admin.php:190
+msgid "Nome"
+msgstr "Nome"
+
+#: includes/class-packit-admin.php:157 includes/class-packit-admin.php:191
+msgid "Versão"
+msgstr "Versão"
+
+#: includes/class-packit-admin.php:158 includes/class-packit-admin.php:192
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-packit-admin.php:159 includes/class-packit-admin.php:193
+msgid "Ações"
+msgstr "Ações"
+
+#: includes/class-packit-admin.php:169 includes/class-packit-admin.php:203
+msgid "Ativo"
+msgstr "Ativo"
+
+#: includes/class-packit-admin.php:171 includes/class-packit-admin.php:205
+msgid "Inativo"
+msgstr "Inativo"
+
+#: includes/class-packit-admin.php:176 includes/class-packit-admin.php:210
+msgid "Exportar"
+msgstr "Exportar"
+
+#: includes/class-packit-admin.php:186
+msgid "Temas Instalados"
+msgstr "Temas Instalados"
