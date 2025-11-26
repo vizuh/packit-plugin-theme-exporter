@@ -33,7 +33,7 @@ Empacote e exporte facilmente seus plugins e temas do WordPress com um único cl
 * Arquivar versões específicas para controle de versão
 * Empacotar trabalho personalizado para entrega
 
-Desenvolvido com ❤️ por [Hugo C](https://vizuh.com/) e MEAOWS Developer
+Desenvolvido com ❤️ por [Vizuh](https://vizuh.com/).
 
 == Installation ==
 

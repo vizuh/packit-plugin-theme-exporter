@@ -129,8 +129,12 @@ Yes! PackIt follows WordPress security best practices, including nonce verificat
 ## 👥 Authors
 
 Developed with ❤️ by:
-* **[Hugo C](https://vizuh.com/)** - Lead Developer
-* **MEAOWS Developer** - Co-Developer
+* **[Vizuh](https://vizuh.com/)**
+
+## 🤝 Contributors
+
+* **[Hugo C](https://github.com/hugoc)**
+* **[MEAOWS Developer](https://github.com/meaowsdev)**
 
 ---
 

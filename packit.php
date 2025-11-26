@@ -4,7 +4,7 @@
  * Plugin URI: https://vizuh.com/
  * Description: Empacote e exporte facilmente plugins e temas do WordPress com um único clique. Perfeito para backups, migrações e compartilhamento de desenvolvimento.
  * Version: 1.0.0
- * Author: Hugo C, MEAOWS Developer
+ * Author: Vizuh
  * Author URI: https://vizuh.com/
  * Contributors: hugoc, meaowsdev
  * Donate link: https://vizuh.com/

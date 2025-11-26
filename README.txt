@@ -33,7 +33,7 @@ Easily package and export your WordPress plugins and themes with a single click.
 * Archive specific versions for version control
 * Package custom work for delivery
 
-Developed with ❤️ by [Hugo C](https://vizuh.com/) and MEAOWS Developer
+Developed with ❤️ by [Vizuh](https://vizuh.com/).
 
 == Installation ==
 
