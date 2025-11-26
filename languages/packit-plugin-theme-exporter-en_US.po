@@ -108,3 +108,7 @@ msgstr "Export"
 #: includes/class-packit-admin.php:186
 msgid "Temas Instalados"
 msgstr "Installed Themes"
+
+#: includes/class-packit-admin.php:54
+msgid "Are you sure you want to export %s?"
+msgstr "Are you sure you want to export %s?"

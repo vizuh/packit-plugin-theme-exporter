@@ -45,7 +45,17 @@ class PackIt_Admin {
             '1.0.0',
             true
         );
+        
+        // Localize script for translations
+        wp_localize_script(
+            'packit-admin-script',
+            'packitL10n',
+            array(
+                'confirmExport' => __('Are you sure you want to export %s?', 'packit-plugin-theme-exporter'),
+            )
+        );
     }
+
     
     public function handle_export_requests() {
         if (!isset($_GET['page']) || $_GET['page'] !== 'packit-plugin-theme-exporter') {

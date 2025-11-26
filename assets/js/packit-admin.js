@@ -16,10 +16,14 @@ jQuery(document).ready(function($) {
         var itemName = $(this).data('item-name') || 'este item';
         var itemType = $(this).data('item-type') || 'item';
         
-        if (!confirm('Tem certeza que deseja exportar ' + itemName + '?')) {
+        // Use localized string with sprintf-style replacement
+        var confirmMessage = packitL10n.confirmExport.replace('%s', itemName);
+        
+        if (!confirm(confirmMessage)) {
             e.preventDefault();
         }
     });
+
     
     $('#packit-search').on('keyup', function() {
         var searchTerm = $(this).val().toLowerCase();
